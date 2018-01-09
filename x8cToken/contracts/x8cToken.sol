@@ -2,11 +2,11 @@ pragma solidity ^0.4.13;
 
 import "./ERC223Token.sol";
 
-contract x8cToken is ERC223Token {
+contract X8CToken is ERC223Token {
 
-    function x8cToken() public {    
-        name = "x8cToken";
-        symbol = "x8c";
+    function X8CToken() public {    
+        name = "X8CToken";
+        symbol = "X8C";
         decimals = 18;
     }
 }
